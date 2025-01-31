@@ -48,6 +48,8 @@ public void deleteEnd()
     {
         if(head==null)
         System.out.println("List is empty");
+        else if(head.next==null)
+        head=null;
         else{
             Node temp=head;
             Node prev=head;
